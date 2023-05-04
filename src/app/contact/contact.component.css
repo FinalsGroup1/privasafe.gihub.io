@@ -1,0 +1,19 @@
+.form-container{
+    font-family: 'PT Serif', serif;
+    color: #fff;
+    font-size: 1.3em;
+    margin: 6em auto;
+    max-width: 60%;
+    min-height: 70vh;
+}
+.wide-span-area{
+    height: 300px;
+}
+.button{
+    outline: transparent;
+    background-color: #fff;
+    width: 120px;
+    height: 40px;
+    border-radius: 100vmax;
+    margin-top: 2em;
+}

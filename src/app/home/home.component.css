@@ -1,0 +1,21 @@
+/* *{
+    background-color:hsl(170, 9%, 15%)  ;
+} */
+.home-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-width: 80vw;
+    margin: 15em 10%;
+    color: #fff;
+    /* outline: 2px solid red; */
+}
+.span-col-img > img{
+    margin-top: 1.5em;
+    min-width: 400px;
+    min-height: 200px;
+}
+.span-col-p{
+    /* margin-top: 4.5em; */
+    font-family: 'PT Serif', serif;
+    font-size: 2em;
+}

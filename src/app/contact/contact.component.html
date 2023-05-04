@@ -1,0 +1,21 @@
+<div class="form-container">
+  <p>Are you experiencing privacy issues about your data? Send us a message and we will help you with the authorities to ensure your safety.</p>
+  <h1>Contact Us:</h1>
+  <form class="form" [formGroup]="ContactForm" (ngSubmit)="onSubmit()">
+
+      <label>Name</label>
+      <input class="form-control" type="text" formControlName="name" required>
+
+
+      <label>Email</label>
+      <input class="form-control" type="email" formControlName="email" required>
+
+
+
+      <label>Issue</label>
+      <textarea class="form-control wide-span-area" type="text-area" formControlName="issue" required></textarea>
+
+      <button type="submit" class="button">Submit</button>
+
+  </form>
+</div>

@@ -1,0 +1,22 @@
+/* *{
+    background-color:hsl(170, 9%, 15%)  ;
+} */
+.about-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-width: 80vw;
+    margin: 15em 10%;
+    color: #fff;
+    /* outline: 2px solid red; */
+}
+.span-col-img > img{
+    max-width: 700px;
+    max-height: 900px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.span-col-p{
+    margin-top: 1.5em;
+    font-family: 'PT Serif', serif;
+    font-size: 2em;
+}

@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("~assets/bg.jpg");
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color:hsl(170, 9%, 15%)  ;
+    align-items: center;
+    padding: 1em;
+    gap: 2em;
+    outline: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav li a{
+    font-size: 1.2em;
+    color: #fff;
+
+}
+section{
+    max-width: 100%;
+    max-width: 100%;
+}
